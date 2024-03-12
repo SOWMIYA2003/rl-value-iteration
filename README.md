@@ -88,7 +88,7 @@ def value_iteration(P, gamma=1.0, theta=1e-10):
 ```
 
 ## OUTPUT:
-### Optimal Policy:A
+### Optimal Policy:
 ![op](./1.png)
 ### Optimal Value Function:
 ![op](./2.png)
