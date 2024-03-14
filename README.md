@@ -44,7 +44,7 @@ The environment is stochastic, meaning that the outcome of an action is not alwa
 
 The episode terminates when the agent reaches the goal state (G) or falls into a hole (H).
 ### Graphical Representation:
-![op](./a1.png)
+![op](./aq1.png)
 ## VALUE ITERATION ALGORITHM
 *  Value iteration is a method of computing an optimal MDP policy and its value.
 *  It begins with an initial guess for the value function, and iteratively updates it towards the optimal value function, according to the Bellman optimality equation.
@@ -89,11 +89,11 @@ def value_iteration(P, gamma=1.0, theta=1e-10):
 
 ## OUTPUT:
 ### Optimal Policy:
-![op](./1.png)
+![op](./z1.png)
 ### Optimal Value Function:
-![op](./2.png)
+![op](./z3.png)
 ### Success Rate for Optimal Policy:
-![op](./2a.png)
+![op](./z2.png)
 
 ## RESULT:
 
